@@ -1,0 +1,22 @@
+.place__paragraph_space {
+  margin: 0 0 24px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph_space {
+    margin: 0 0 27px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph_space {
+    max-width: 288px;
+    margin: 0 auto 24px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

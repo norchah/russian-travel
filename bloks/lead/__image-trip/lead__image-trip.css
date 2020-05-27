@@ -1,6 +1,15 @@
 .lead__image-trip {
   position: absolute;
-  width: 937px;
-  bottom: 285px;
+  width: 95%;
+  bottom: 28.5%;
   left: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image-trip {
+    position: absolute;
+    width: 95%;
+    bottom: 28.5%;
+    left: 14px;
+  }
 }
