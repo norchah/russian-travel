@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   list-style: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 768px) {

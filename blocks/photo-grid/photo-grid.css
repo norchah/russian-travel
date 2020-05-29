@@ -9,7 +9,7 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 786px) {
+@media screen and (max-width: 1024px) {
   .photo-grid {
     max-width: calc(100% - 96px);
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 786px) and (min-width: 320px) {
+@media screen and (max-width: 786px) {
   .photo-grid {
     max-width: calc(100% - 48px);
     gap: 16px;
