@@ -1,7 +1,7 @@
 .footer__copyright {
   margin: 0px;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.15;
   font-weight: normal;
   align-self: center;
 }
@@ -9,6 +9,7 @@
 @media screen and (max-width: 768px) {
   .footer__copyright {
     align-self: start;
-    line-height: 14px;
+    line-height: 1;
+    margin-top: 16px;
   }
 }
