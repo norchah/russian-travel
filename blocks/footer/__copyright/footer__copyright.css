@@ -3,13 +3,22 @@
   font-size: 14px;
   line-height: 1.15;
   font-weight: normal;
-  align-self: center;
+  align-self: start;
+  outline: 1px solid pink;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 703px) {
   .footer__copyright {
-    align-self: start;
     line-height: 1;
     margin-top: 16px;
+    margin: 0px;
+    align-self: center;
   }
+}
+
+@media screen and (max-width: 600px) {
+  .footer__copyright {
+    align-self: flex-start;
+  }
+
 }

@@ -1,5 +1,7 @@
-@import url('./__lang/header__lang.css');
+@import url('./__lang/header__lang.css'); /*В папке __lang высвечивается ошибка, но в файле её нет, видимо сбой*/
 @import url('./__lang-link/header__lang-link.css');
+@import url('./__lang-link/_active/header__lang-link_active.css');
+@import url('./__lang-item/header__lang-item.css');
 
 .header {
   margin: 28px auto 0;

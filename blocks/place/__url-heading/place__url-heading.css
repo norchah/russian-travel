@@ -8,7 +8,7 @@
   margin: 0 0 12px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 700px) {
   .place__url-heading {
     display: none;
   }

@@ -7,7 +7,7 @@
   text-align: left;
 }
 
-@media screen and (max-width: 786px) and (min-height: 320px) {
+@media screen and (max-width: 700px) { /*Вообще не нужный размер был )*/
   .intro__title {
     font-size: 32px;
     line-height: 1.1;

@@ -2,13 +2,14 @@
   color: inherit;
   font-size: 18px;
   line-height: 1.25;
+  transition: opacity .2s;
 }
 
 .place__link:hover {
   opacity: 0.8;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 700px) {
   .place__link {
     display: none;
   }

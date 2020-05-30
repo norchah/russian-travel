@@ -2,11 +2,6 @@
   margin: 0;
   grid-column: 2;
   grid-row: 2;
-  align-self: start;
-  font-size: 18px;
-  line-height: 1.7;
-  font-size: 18px;
-  line-height: 1.7;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,6 +12,14 @@
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
-    margin: 32px auto 0;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .place__paragraph {
+    margin-left: 16px ;
+
+
   }
 }

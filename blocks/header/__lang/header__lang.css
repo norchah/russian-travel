@@ -1,3 +1,6 @@
 .header__lang {
   align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
 }
