@@ -1,0 +1,8 @@
+.cover__link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.cover__link:hover {
+    cursor: pointer;
+}
