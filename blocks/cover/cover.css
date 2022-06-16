@@ -1,7 +1,8 @@
 .cover {
     background-image: url(../../images/background.jpg);
-    max-width: calc(100% - 48px*2);
-    height: 740px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: calc(100% - 48px*2);
     margin: 0 auto;
     padding: 92 0 0;
     position: relative;
