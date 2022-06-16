@@ -19,3 +19,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__span-accent/intro__span-accent.css);
+@import url(../blocks/photos/photos.css);
+@import url(../blocks/photos/__list/photos__list.css);
+@import url(../blocks/photos/__list-item/photos__list-item.css);
+@import url(../blocks/photos/__image/photos__image.css);

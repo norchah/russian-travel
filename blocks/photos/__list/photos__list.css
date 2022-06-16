@@ -1,0 +1,8 @@
+.photos__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 16px*3)/4), min-content));
+    grid-template-rows: repeat(auto-fit, 1fr);
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
