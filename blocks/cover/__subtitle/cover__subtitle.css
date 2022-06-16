@@ -9,3 +9,9 @@
     position: relative;
     z-index: 3;
 }
+
+@media screen and (max-width: 1080px) {
+    .cover__subtitle {
+        padding-bottom: 195px;
+    }
+}

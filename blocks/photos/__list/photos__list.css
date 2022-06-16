@@ -6,3 +6,9 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 1080px) {
+    .photos__list {
+        gap: 14px;
+    }
+}
