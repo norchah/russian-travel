@@ -9,6 +9,7 @@
 
 @media screen and (max-width: 1080px) {
     .photos__list {
+        grid-template-columns: repeat(auto-fit, minmax(calc((100% - 14px*3)/3), min-content));
         gap: 14px;
     }
 }
