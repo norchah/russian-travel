@@ -1,5 +1,4 @@
 .place__website {
     grid-column: 2/ span 1;
     align-self: end;
-    outline: 1px solid red;
 }
