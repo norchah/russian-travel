@@ -1,6 +1,6 @@
 .place {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(calc(100% - 40px)/2), min-content);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 40px;
     row-gap: 48px;
     padding: 0 0 80px;
