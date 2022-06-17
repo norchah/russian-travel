@@ -5,5 +5,5 @@
 
 .cover__link:hover .cover__cover-image {
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
 }
