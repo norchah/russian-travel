@@ -3,15 +3,32 @@
     font-weight: 400;
     line-height: 1.22;
     width: 360px;
-    margin: 32px auto;
+    margin: 32px auto 0;
     padding: 0 0 245px;
     text-align: center;
     position: relative;
+    align-self: center;
+    /* TODO убрать */
     z-index: 3;
+}
+
+@media screen and (max-width: 1280px) {
+    .cover__subtitle {
+        padding-bottom: 195px;
+    }
 }
 
 @media screen and (max-width: 1080px) {
     .cover__subtitle {
-        padding-bottom: 195px;
+        padding-bottom: 115px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        margin-top: 16px;
+        padding-bottom: 33px;
+        font-size: 14px;
+        line-height: 1.14;
     }
 }

@@ -2,3 +2,10 @@
     grid-column: 2/ span 1;
     align-self: end;
 }
+
+@media screen and (max-width: 768px) {
+    .place__website {
+        align-self: start;
+        margin: 32px 0 32px 16px;
+    }
+}
