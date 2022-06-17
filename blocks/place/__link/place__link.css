@@ -9,7 +9,3 @@
     border-bottom: 1px solid #fff;
     transition: opacity .1s linear;
 }
-
-.place__link:hover {
-    opacity: 0.8;
-}

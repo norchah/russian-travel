@@ -13,15 +13,15 @@
   <!-- HEADER-->
 
   <header class="header">
-    <a class="header__logo" href="#">
-      <img class="header__logo-image" src="images/logo/header__logo.svg" alt="Логотип 'Россия'"></img>
+    <a class="header__logo link" href="#">
+      <img class="header__logo-image" src="images/logo/header__logo.svg" alt="Логотип 'Россия'">
     </a>
     <ul class="header__lang-list">
       <li class="header__lang-item">
-        <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
+        <a class="header__lang-link header__lang-link_active link" href="#">Ru</a>
       </li>
       <li class="header__lang-item">
-        <a class="header__lang-link" href="#">En</a>
+        <a class="header__lang-link link" href="#">En</a>
       </li>
     </ul>
   </header>
@@ -80,6 +80,8 @@
     <!-- PHOTOS-GRID -->
 
     <section class="photos">
+      <h2 class="photos__title vissualy-hidden">Галлерея фотографий России</h2>
+      <!-- спрятанный заголовок, видимый скринридерам-->
       <ul class="photos__list">
         <li class="photos__list-item">
           <img class="photos__image" src="images/photo-grid/__item.jpg" alt="Из окна купе">
@@ -123,11 +125,13 @@
     <!-- PLACES -->
 
     <section class="places">
+      <h2 class="places__title vissualy-hidden">Места для туризма России</h2>
+      <!-- спрятанный заголовок, видимый скринридерам-->
       <article class="place">
         <h2 class="place__title">Куршская коса</h2>
         <div class="place__website">
           <h4 class="place__url-hedding">url</h4>
-          <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
+          <a class="place__link link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
         </div>
         <img class="place__image" src="images/img_kosa.jpg" alt="фото берега Куршской косы">
         <div class="place__paragraph">
@@ -145,7 +149,7 @@
         <h2 class="place__title">Кольский</h2>
         <div class="place__website">
           <h4 class="place__url-hedding">url</h4>
-          <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+          <a class="place__link link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
             target="_blank">National Geographic</a>
         </div>
         <img class="place__image" src="images/img_kolski.jpg" alt="фото гор Кольского полуострова">
@@ -164,7 +168,7 @@
         <h2 class="place__title">Алтай</h2>
         <div class="place__website">
           <h4 class="place__url-hedding">url</h4>
-          <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+          <a class="place__link link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
             target="_blank">Facebook</a>
         </div>
         <img class="place__image" src="images/img_altai.jpg" alt="фото Алтайского леса">
@@ -182,7 +186,7 @@
         <h2 class="place__title">Зимний Байкал</h2>
         <div class="place__website">
           <h4 class="place__url-hedding">url</h4>
-          <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
+          <a class="place__link link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
         </div>
         <img class="place__image" src="images/img_baikal.jpg" alt="фото льда озера">
         <div class="place__paragraph">
@@ -199,7 +203,7 @@
         <h2 class="place__title">Карелия</h2>
         <div class="place__website">
           <h4 class="place__url-hedding">url</h4>
-          <a class="place__link" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
+          <a class="place__link link" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
         </div>
         <img class="place__image" src="images/img_karelia.jpg" alt="фото природы">
         <div class="place__paragraph">
@@ -224,23 +228,26 @@
       </a>
     </section>
   </main>
+
+  <!-- FOOTER -->
+
   <footer class="footer">
     <nav class="footer__nav">
       <ul class="footer__links">
         <li class="">
-          <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+          <a class="footer__link link" href="https://yandex.ru/maps" target="_blank">Карты</a>
         </li>
         <li class="">
-          <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+          <a class="footer__link link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
         </li>
         <li class="">
-          <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+          <a class="footer__link link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
         </li>
         <li class="">
-          <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+          <a class="footer__link link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
         </li>
         <li class="">
-          <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+          <a class="footer__link link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
         </li>
       </ul>
     </nav>
