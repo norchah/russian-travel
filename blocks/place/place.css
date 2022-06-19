@@ -1,6 +1,6 @@
 .place {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
     column-gap: 40px;
     row-gap: 48px;
     padding: 0 0 80px;
@@ -12,17 +12,30 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        padding-bottom: 73px;
+        column-gap: 20px;
+        padding-bottom: 80px;
     }
 }
 
-/* TODO check *584*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
+    .place {
+        padding-bottom: 71px;
+    }
+
+    .place:first-of-type .place__title {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 767px) {
     .place {
         display: flex;
         flex-direction: column;
-        gap: 0;
-        justify-content: flex-start;
+        gap: 32px;
         padding-bottom: 50px;
+    }
+
+    .place:first-of-type .place__title {
+        width: 100%;
     }
 }

@@ -7,21 +7,21 @@
     padding: 0;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
     .photos__list {
         grid-template-columns: repeat(auto-fit, minmax(calc((100% - 14px*2)/3), max-content));
         gap: 14px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .photos__list {
         grid-template-columns: repeat(auto-fit, minmax(calc((100% - 16px)/2), max-content));
         gap: 16px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .photos__list {
         grid-template-columns: 100%;
         row-gap: 12px;
