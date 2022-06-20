@@ -5,7 +5,6 @@
     column-gap: 40px;
     row-gap: 48px;
     padding: 0 0 80px;
-    outline: 1px solid red;
 }
 
 .place:last-of-type {
